@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgmainpage2" >
+     <TextView 
+      android:text="Faculty"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+       android:id="@+id/datasent_tv_label"
+       />
+     <Button 
+         android:layout_marginTop="75dp"
+         android:text="Present Data"
+         android:layout_height="wrap_content"
+         android:layout_width="200dp"
+         android:layout_gravity="center_horizontal"
+         android:id="@+id/datasent_bt_presentdata"/>
+     
+     <Button 
+         android:layout_marginTop="25dp"
+         android:text="Attendance Record"
+         android:layout_height="wrap_content"
+         android:layout_width="200dp"
+         android:layout_gravity="center_horizontal"/>
+     
+     
+     <Button
+         android:id="@+id/bt_ds_get_present_student" 
+         android:layout_marginTop="25dp"
+         android:text="Get Present Student"
+         android:layout_height="wrap_content"
+         android:layout_width="200dp"
+         android:layout_gravity="center_horizontal"/>
+     
+     
+    </LinearLayout>
